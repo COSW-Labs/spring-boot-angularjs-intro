@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "body {\r\n  min-height: 75rem;\r\n  padding-top: 4.5rem;\r\n}\r\n", ""]);
+exports.push([module.i, "body {\n  min-height: 75rem;\n  padding-top: 4.5rem;\n}\n", ""]);
 
 // exports
 
