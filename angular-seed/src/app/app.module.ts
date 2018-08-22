@@ -10,6 +10,8 @@ import { TaskListPageComponent } from './pages/task-list-page/task-list-page.com
 import { TaskEditPageComponent } from './pages/task-edit-page/task-edit-page.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
+import { TodoService } from './todo.service';
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const ROUTES = [
@@ -33,7 +35,7 @@ const ROUTES = [
     RouterModule.forRoot(ROUTES),
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [TodoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
